@@ -1,7 +1,10 @@
 # tscircuit   playground
-A small repo where I play around and see, if tscircuit is valid for doing small projects in it.
+A small repo where I play around and see, if tscircuit is valid for doing small projects in it...
 
 
+
+Okay yeah that seems about right...
+![](image.png)
 ## Prerequisites
 
 - Node.js 20 or newer (Node.js 22 is recommended)

@@ -7,9 +7,9 @@
   "scripts": {
     "dev": "cross-env TSCIRCUIT_CONFIG_DIR=.tscircuit tsci dev",
     "typecheck": "tsc --noEmit",
-    "check": "npm run typecheck && cross-env TSCIRCUIT_CONFIG_DIR=.tscircuit tsci build",
-    "build": "cross-env TSCIRCUIT_CONFIG_DIR=.tscircuit tsci build --svgs",
-    "build:all-images": "cross-env TSCIRCUIT_CONFIG_DIR=.tscircuit tsci build --all-images",
+    "check": "npm run typecheck && cross-env TSCIRCUIT_CONFIG_DIR=.tscircuit tsci build src/board.circuit.tsx",
+    "build": "cross-env TSCIRCUIT_CONFIG_DIR=.tscircuit tsci build src/board.circuit.tsx --svgs",
+    "build:all-images": "cross-env TSCIRCUIT_CONFIG_DIR=.tscircuit tsci build src/board.circuit.tsx --all-images",
     "doctor": "cross-env TSCIRCUIT_CONFIG_DIR=.tscircuit tsci doctor",
     "test": "npm run check"
   },
