@@ -22,7 +22,8 @@ export default function StarterBoard() {
         schX={3}
         pcbX={3}
       />
-      <trace from=".R1 > .pin1" to=".C1 > .pin1" />
+      <trace name="NET_A" from=".R1 > .pin1" to=".C1 > .pin1" />
+      <trace name="NET_B" from=".R1 > .pin2" to=".C1 > .pin2" />
     </board>
   )
 }
